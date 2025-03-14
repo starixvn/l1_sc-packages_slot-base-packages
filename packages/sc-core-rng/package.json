@@ -1,6 +1,6 @@
 {
     "name": "@sc/core-rng",
-    "version": "1.0.3-beta.5",
+    "version": "1.0.0-beta.0",
     "description": "Secure RNG core functions for games using node:crypto",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -21,7 +21,10 @@
         "test:coverage": "jest --coverage",
         "test:ci": "jest --ci --coverage",
         "lint": "eslint .",
-        "lint:fix": "eslint . --fix"
+        "lint:fix": "eslint . --fix",
+        "reg": "npm set registry http://npm.lumigame.com",
+        "betaver": "npm version prerelease --preid beta",
+        "pubbeta": "npm publish --registry http://npm.lumigame.com --tag beta"
     },
     "keywords": [
         "rng",
