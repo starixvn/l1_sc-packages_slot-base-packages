@@ -1,6 +1,21 @@
 # Slot Base Packages
 
-Monorepo for slot game core packages managed with Lerna.
+This monorepo contains core packages for slot game development, providing essential functionality like random number generation and board generation. Built with TypeScript and managed through Lerna for efficient development and versioning.
+
+> **Note**: Packages are published to our private registry at npm.lumigame.com. Make sure you have the correct registry configuration and access.
+
+## Quick Start
+```bash
+# Clone and install dependencies
+git clone <repository-url>
+yarn install
+
+# Build all packages
+yarn lerna run build
+
+# Publish beta version (from package directory)
+yarn betaver && yarn pubbeta
+```
 
 ## Packages
 
