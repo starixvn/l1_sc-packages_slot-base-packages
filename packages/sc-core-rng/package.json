@@ -1,20 +1,20 @@
 {
     "name": "@sc/core-rng",
-    "version": "1.0.0-beta.0",
+    "version": "1.0.0-beta.1",
     "description": "Secure RNG core functions for games using node:crypto",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "exports": {
         ".": {
-            "require": "./dist/index.js",
-            "import": "./dist/index.js"
+            "require": "./lib/index.js",
+            "import": "./lib/index.js"
         }
     },
     "engines": {
         "node": ">=18.0.0"
     },
     "scripts": {
-        "prebuild": "rimraf dist",
+        "prebuild": "rimraf lib",
         "build": "tsc",
         "test": "jest",
         "test:watch": "jest --watch",
@@ -34,7 +34,7 @@
         "shuffle"
     ],
     "files": [
-        "dist/"
+        "lib/"
     ],
     "author": "",
     "license": "ISC",

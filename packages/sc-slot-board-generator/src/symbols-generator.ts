@@ -1,5 +1,5 @@
 import { concat, reduce, repeat } from "ramda";
-import { secureShuffle, securePickSet } from "sc-core-rng";
+import { secureShuffle, securePickSet } from "@sc/core-rng";
 import { shuffleN } from "./utils";
 
 export interface SymbolPayout {
