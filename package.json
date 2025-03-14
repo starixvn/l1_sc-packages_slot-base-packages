@@ -25,6 +25,7 @@
     "jest-micro-auto-stub": "^1.0.7",
     "jest-sonar-reporter": "^2.0.0",
     "lerna": "^8.2.1",
+    "rimraf": "3.0.2",
     "ts-jest": "^29.2.6",
     "typescript": "^5.8.2"
   },
