@@ -4,5 +4,21 @@
   "npmClient": "yarn",
   "packages": [
     "packages/*"
-  ]
+  ],
+  "command": {
+    "version": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish packages",
+      "changelogPreset": "conventional-changelog-conventionalcommits",
+      "preid": "beta"
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish packages",
+      "registry": "http://npm.lumigame.com",
+      "prerelease": "beta",
+      "preid": "beta",
+      "dist-tag": "beta"
+    }
+  }
 }
